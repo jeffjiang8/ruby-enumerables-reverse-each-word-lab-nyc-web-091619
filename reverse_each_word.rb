@@ -1,4 +1,4 @@
 def reverse_each_word (array)
-  array.reverse.split.reverse do |words|
+  array.reverse.split.reverse.join (" ")
   end 
 end 
